@@ -1,0 +1,36 @@
+{
+  "name": "graphql-json-api",
+  "version": "1.0.0",
+  "description": "Simple nodejs graphql server",
+  "homepage": "https://github.com/hmtanbir/node-graphql-json-api#readme",
+  "bugs": {
+    "url": "https://github.com/hmtanbir/node-graphql-json-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hmtanbir/node-graphql-json-api.git"
+  },
+  "license": "MIT",
+  "author": "hmtanbir",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-server-errors": "^3.3.1",
+    "apollo-server-express": "^3.13.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.11.0",
+    "graphql-scalars": "^1.24.2",
+    "graphql-type-json": "^0.3.2",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
