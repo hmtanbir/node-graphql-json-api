@@ -9,8 +9,8 @@ A Node.js GraphQL API server using Apollo Server with JSON files as the data sou
 1. **Clone the repository**
 
 ```bash
-git clone <repo_url>
-cd <project_directory>
+git clone https://github.com/hmtanbir/node-graphql-json-api
+cd node-graphql-json-api
 ```
 
 2.**Install dependencies**
